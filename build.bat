@@ -1,1 +1,1 @@
-go build -o m3u8_downloader.exe
+go build -o m3u8GoAssist.exe
