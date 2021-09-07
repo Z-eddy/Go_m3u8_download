@@ -33,7 +33,7 @@ func main() {
 		return
 	}
 
-	hlsDL := hlsdl.New(m3u8Url, nil, filename, coroutineCount,false)
+	hlsDL := hlsdl.New(m3u8Url, nil, filename, coroutineCount,true)
 	filePath , err := hlsDL.Download()
 	if err != nil {
 		panic(err)
